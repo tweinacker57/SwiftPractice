@@ -8,3 +8,4 @@ let timePeriod = "PM"
 var time = hour + ":" + minutes + " " + timePeriod
 
 print("It is \(time)")
+print("It is \(time) on \(day)")
