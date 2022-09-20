@@ -15,3 +15,8 @@ let timezone = "PST"
 time += " \(timezone  )"
 
 print("It is \(time) on \(day)")
+
+let shortDay = day.prefix(3)
+
+print("Today is \(shortDay)")
+
