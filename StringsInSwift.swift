@@ -19,4 +19,5 @@ print("It is \(time) on \(day)")
 let shortDay = day.prefix(3)
 
 print("Today is \(shortDay)")
+print("It is \(time) on \(shortDay)")
 
