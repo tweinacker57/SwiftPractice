@@ -8,3 +8,7 @@ var temperature = 70
 
 print("The temperature on \(day) morning is \(temperature)")
 
+temperature = 80
+
+print("The temperature on \(day) evening is \(temperature)")
+
