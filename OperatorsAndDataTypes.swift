@@ -10,3 +10,6 @@ levelBonusScore = 20
 
 print("The level's bonus score is \(levelBonusScore)")
 
+gameScore += Int(levelBonusScore)
+
+print("The game's score is \(gameScore)")
