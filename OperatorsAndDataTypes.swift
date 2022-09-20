@@ -23,3 +23,7 @@ let levelScoreDifference = levelHighestScore - levelLowestScore
 let levelAverageScore = levelScoreDifference / levels
 
 print("The level's average score is \(levelAverageScore)")
+
+let averageLevelScore = Double(levelScoreDifference) / Double(levels)
+
+print("The level's average score is \(averageLevelScore)")
