@@ -32,3 +32,7 @@ switch temperatureDegree{
     default: print("The system has an unknown configuration")
 }
 
+let numberPlate = "WW87GP"
+for character in numberPlate {
+  print("character is = \(character)")
+}
