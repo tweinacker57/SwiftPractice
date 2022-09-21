@@ -24,3 +24,15 @@ if let firstPasscode = Int(firstPassword), let secondPasscode = Int(secondPasswo
 }else{
     print("Invalid Passcodes!")
 }
+
+let firstAccessCode: Int
+let secondAccessCode: Int
+
+if let firstPasscode = Int(firstPassword), let secondPasscode = Int(secondPassword){
+    firstAccessCode = firstPasscode
+    secondAccessCode = secondPasscode
+}else {
+    firstAccessCode = 1111
+    secondAccessCode = 2222
+}
+print("First passcode is \(firstAccessCode). Second passcode is \(secondAccessCode)")
