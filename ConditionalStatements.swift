@@ -13,3 +13,10 @@ if morningTemperature < eveningTemperature {
     print(eveningTemperature)
 }
 
+let temperatureDegree = "Fahrenheit"
+if temperatureDegree == "Fahrenheit" {
+    print("This app uses Fahrenheit")
+}else {
+    print("This app uses Celcius")
+}
+
