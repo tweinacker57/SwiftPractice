@@ -20,11 +20,11 @@ if temperatureDegree == "Fahrenheit" {
     print("This app uses Celcius")
 }
 
-/*if temperatureDegree == Fahrenheit || Celcius {
+if temperatureDegree == "Fahrenheit" || temperatureDegree == "Celcius" {
     print("The app is configured properly")
 }else {
     print("The app is not configured properly")
-}*/
+}
 
 switch temperatureDegree{
     case "Fahrenheit": print("This app is configured for US")
