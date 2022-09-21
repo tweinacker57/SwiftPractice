@@ -8,9 +8,9 @@ let morningTemperature = 70
 let eveningTemperature = 80
 
 if morningTemperature < eveningTemperature {
-    print(morningTemperature)
+    print("It is colder in the morning")
 }else {
-    print(eveningTemperature)
+    print("It is colder in the evening")
 }
 
 let temperatureDegree = "Fahrenheit"
