@@ -14,3 +14,7 @@ if let temperature = weeklyTemperature["Sunday"]{
     weeklyTemperature["Sunday"] = 100
     print("The temperature on Sunday is \(weeklyTemperature["Sunday"]!)")
 }
+
+if weeklyTemperature.count == 7{
+    print("")
+}
