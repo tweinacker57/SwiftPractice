@@ -7,3 +7,10 @@ weeklyTemperature = ["Monday": 70, "Tuesday": 75, "Wednesday": 80, "Thursday": 8
 weeklyTemperature["Monday"]! += 12
 
 print("The temperature on Monday is \(weeklyTemperature["Monday"]!)")
+
+if let temperature = weeklyTemperature["Sunday"]{
+    print("The temperature on Sunday is \(temperature)")
+}else{
+    weeklyTemperature["Sunday"] = 100
+    print("The temperature on Sunday is \(weeklyTemperature["Sunday"]!)")
+}
