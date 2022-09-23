@@ -26,4 +26,5 @@ case 9:
 default:
     eightBall = "Error"
 }
-
+print("\(playerName) asks: \(playerQuestion)")
+print("The Magic 8-Ball says: \(eightBall)")
