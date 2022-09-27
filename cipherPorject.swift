@@ -5,4 +5,13 @@ var message = "hello"
 //Add secret message variable and convert message into an array
 var secretMessage = Array(message)
 
-print(secretMessage)
+for i in 0..<message.count {
+    for j in 0..<alphabet.count {
+        if message[i] == alphabet[j] {
+            message[i] = alphabet[j+3]
+        break
+        }
+    }
+}
+print(message)
+
