@@ -7,3 +7,11 @@ if sockDrawer.isEmpty{
 }else {
     print("We have \(sockDrawer.count) pairs of socks in the drawer")
 }
+
+//Use inset method
+
+var friends: Set = ["Tyler", "Kendall"]
+
+friends.insert("Tanner")
+
+print("\(friends) are the very best of friends")
