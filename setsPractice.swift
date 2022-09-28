@@ -25,3 +25,7 @@ print("There are \(planets.count) planets in our solar system")
 planets.remove("Pluto")
 
 print("There are now \(planets.count) in our solar system. Since Pluto was removed those planets are: \(planets)")
+
+planets.removeAll()
+
+print("We are now entering a new galaxy. There are \(planets.count) in this solar system")
