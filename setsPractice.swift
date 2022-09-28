@@ -29,3 +29,13 @@ print("There are now \(planets.count) in our solar system. Since Pluto was remov
 planets.removeAll()
 
 print("We are now entering a new galaxy. There are \(planets.count) in this solar system")
+
+//Utilize the contains method to check if a value exists within the set
+
+var coffeeFlavors: Set = ["Caramel", "Mocha", "Pumpkin Spice", "Vanilla", "Blueberry"]
+
+if coffeeFlavors.contains("Blueberry"){
+    print("One blueberry coffee coming right up!")
+}else{
+    print("We don't sell that flavor here")
+}
