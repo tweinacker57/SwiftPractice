@@ -39,3 +39,14 @@ if coffeeFlavors.contains("Blueberry"){
 }else{
     print("We don't sell that flavor here")
 }
+
+//Loop through set with for loop
+
+var thingsToPack: Set = ["Bathing Suit", "Clothes", "Sunglasses", "Sunscreen", "Favorite Book", "Phone Charger"]
+
+var suitcase = Set<String>()
+
+for item in thingsToPack{
+    suitcase.insert(item)
+}
+print(suitcase)
