@@ -50,3 +50,12 @@ for item in thingsToPack{
     suitcase.insert(item)
 }
 print(suitcase)
+
+//Use intersection method
+
+var seaAnimals: Set = ["Sharks", "Penguin", "Seal", "Whale"]
+var landAnimals: Set = ["Lion", "Penguin", "Bear", "Seal"]
+
+var landAndSea = seaAnimals.intersection(landAnimals)
+
+print("These animals are both on land and in the water: \(landAndSea)")
