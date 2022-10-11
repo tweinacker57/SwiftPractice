@@ -14,3 +14,10 @@ func greet(person: String, lunchSpecial: String) -> String {
     return "Hello \(person), todays lunch special is \(lunchSpecial)"
 }
 print(greet(person: "Tyler", lunchSpecial: "Steak"))
+
+//Create functions using argument labels
+
+func newCustomer(to newUser: String, from company: String) -> String{
+    return "Hello \(newUser)! We're happy to have you joining from \(company)"
+}
+print(newCustomer(to: "Tyler", from: "Bay State"))
