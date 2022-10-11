@@ -1,9 +1,7 @@
 //Game where a player asks a question and a magic 8-ball answers based off of a random number
-print("What is your name?")
-var playerName = readLine()
-let playerQuestion = "Will I be rich?"
-let randomNumber = Int.random(in: 1...9)
-let eightBall: String
+let playerQuestion = "What are we doing today?"
+let randomNumber = Int.random(in: 1...6)
+let coinToss: String
 
 switch randomNumber{
 case 1:
